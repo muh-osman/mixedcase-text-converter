@@ -37,7 +37,7 @@ export default function Main() {
     <main>
       <div className="head">
         <div><h1>mIxEdCaSe tExT CoNvErTeR!</h1></div>
-        <div><a href="#"><AiOutlineGithub /> GitHub</a></div>
+        <div><a href="https://github.com/muh-osman/mixedcase-text-converter"><AiOutlineGithub /> GitHub</a></div>
       </div>
       
 

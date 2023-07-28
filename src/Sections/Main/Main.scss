@@ -7,20 +7,27 @@ main {
 }
 
 .head {
-  display: flex;
-  align-items: center;
+  // display: flex;
+  // align-items: center;
+  position: relative;
   padding: 16px;
   text-align: center;
   border-bottom: 1px solid #e5e7eb;
   background-color: #fff;
-      a {
-  border: 1px solid #e5e7eb;
-        
-        color: #000;
-        font-weight: 600;
-        padding: 10px 20px;
-        border-radius: 9px;
-      }
+  div:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  a {
+    border: 1px solid #e5e7eb;
+
+    color: #000;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 9px;
+  }
 }
 
 .box {
