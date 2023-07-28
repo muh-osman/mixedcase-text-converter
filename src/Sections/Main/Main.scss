@@ -14,19 +14,41 @@ main {
   text-align: center;
   border-bottom: 1px solid #e5e7eb;
   background-color: #fff;
-  div:nth-child(2) {
+
+  a {
     position: absolute;
-    top: 0;
+    top: 50%;
     right: 0;
+    transform: translateY(-50%);
+    margin-right: 16px;
+    border: 1px solid #e5e7eb;
+    color: #000;
+    font-weight: 600;
+    padding: 7px 14px;
+    border-radius: 9px;
+    display: inline-block;
+    line-height: 1;
+
+    & svg {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    &:hover {
+      color: #fff;
+      background-color: #000;
+      border: 1px solid #000;
+    }
+  }
+}
+
+@media (width <= 720px) {
+  span {
+    display: none !important;
   }
 
   a {
-    border: 1px solid #e5e7eb;
-
-    color: #000;
-    font-weight: 600;
-    padding: 10px 20px;
-    border-radius: 9px;
+    padding: 5px !important;
   }
 }
 
@@ -39,17 +61,13 @@ main {
   justify-content: space-between;
 }
 
-h1 {
-
-}
-
 @media (width <= 500px) {
   h1 {
-    font-size: 22px;
+    font-size: 19px;
   }
 
   .box {
-    height: calc(100% - 59px);
+    height: calc(100% - 55px);
   }
 }
 

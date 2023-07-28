@@ -36,10 +36,15 @@ export default function Main() {
   return (
     <main>
       <div className="head">
-        <div><h1>mIxEdCaSe tExT CoNvErTeR!</h1></div>
-        <div><a href="https://github.com/muh-osman/mixedcase-text-converter"><AiOutlineGithub /> GitHub</a></div>
+        <h1>mIxEdCaSe tExT CoNvErTeR!</h1>
+        <a
+          target={"_blank"}
+          rel="noopener"
+          href="https://github.com/muh-osman/mixedcase-text-converter"
+        >
+          <AiOutlineGithub /> <span> GitHub</span>
+        </a>
       </div>
-      
 
       <div className="box">
         <h2>
