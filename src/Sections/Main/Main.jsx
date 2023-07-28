@@ -39,7 +39,7 @@ export default function Main() {
         <h1>mIxEdCaSe tExT CoNvErTeR!</h1>
         <a
           target={"_blank"}
-          rel="noopener"
+          rel="noreferrer"
           href="https://github.com/muh-osman/mixedcase-text-converter"
         >
           <AiOutlineGithub /> <span> GitHub</span>
